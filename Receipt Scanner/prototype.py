@@ -131,6 +131,9 @@ darrentotal = sum(float(i) for i in darren)
 splittotal = sum(float(i) for i in split)
 
 # Print the total
+split = splittotal/2
+ethantotal += split
+darrentotal += split
+
 print("Ethan Total:", ethantotal)
 print("Darren Total:", darrentotal)
-print("We are splitting:", splittotal)
